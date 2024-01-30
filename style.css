@@ -1,515 +1,357 @@
-body{
-    margin: 0px;
-    background-color: rgba(216, 248, 236, 0.075);
-}
+*{font-family: arial;}
+
 header{
-  
-    height: auto;
+    margin-left: 250px;
+    padding: 20px;
+ 
+}
+header h2 {
+   font-family: Cursive;
+width: 500px;
+    font-size: 50px;
+margin: 0;
+padding: 0;
 
 }
 
+header p {
+    margin: 0;
+    padding: 0;
+    color: red;
+    
+}
+
+nav{
+    box-shadow: rgba(99, 99, 99, 0.11) 0px 2px 8px 0px;
+width: 100%;
+ 
+}
 
 nav ul{
 
     display: flex;
-text-align: center;
-    align-items: center;
     justify-content: center;
-
-
-
-
 }
+
 nav ul li {
-padding-right: 90px;
-
-list-style: none;
+    padding: 20px;
+    list-style: none;
 }
-nav  a {
+nav ul a{
     text-decoration: none;
-  
-color: black;
-    }
-
-nav img{
-    width: 170px;
-}
-
-section {
-  width: 100%;
-  height: auto;
-}
-section img{
-width: 100%;
-    height: 100%;
-    object-fit:cover;
-
+    color: black;
 }
 
 main{
-   
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-
+ display: flex;
+justify-content: space-around;
 
 }
-.contimoveis{
-    width: 300px;
-    height: auto;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-background-color: white;
-padding: 0px;
 
- 
-    margin: 1%;
-}
-.contimoveis img{
-    width: 100%;
-    height: 220px;
-
+.cont {
     
-object-fit: cover;
+    width: 1000px;
+    border: solid 1px rgba(100, 100, 100, 0.096);
+    height: auto;
+   display: flex;
+margin: 30px 80px;
+   padding: 10px;
+ 
 }
 
-h2{
-padding: 0px 10px;
-margin: 0px ;
-  font-size: 22px;
-  font-weight: normal;
+.cont3{
+    width: 1200px; 
+    
+    
 }
 
-h3{
-position: relative;
-top: -18px;
-left: -8px;
-border-radius: 3px;
-background-color:#ffd900ea;
-box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 1px;
-  padding: 4px ;
-  margin: 0px ;
-  width: 155px;
-  font-size: 27px;
-  font-weight: 700;
-  color: black;
+.cont img{
+    width: 430px;
+    height: 340px;
+    padding: 20px;
+    
+
   
 }
 
-.cabe{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.desc {
+    padding: 20px;
 
-}
-
-.cabe h1 {
-  font-weight: normal;
-}
-
-.contimoveis button{
-  width: 300px;
-  height: 50px;
-  background-color: black;
-  color: white;
-  font-weight: 600;
-  border: 0px;
-  cursor: pointer;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-
- 
-}
-
-.contimoveis p {
-  padding: 0px 10px;
-  font-size: 17px;
-  font-weight: 500;
-  margin: 10px 0px;
-
-}
-.mySlides {display: none}
-
-
-/* Slideshow container */
-.slideshow-container {
-  width: 850px;
-  height: 850px;
-  position: relative;
-  margin: auto;
-}
-.slideshow-container img{
-    width: 850px;
-    height: 850px;
-    object-fit: cover;
-}
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
- .info{
-
-height: auto;
-
-
-}
-
-
-
-.continfo{
-width: 45%;
-display: flex;
-justify-content: center;
-flex-direction: column;
-
-
-
-}
-
-.continfo p{
-    width: 70%;
-    font-size: 17px;
-    
-
-}
-
-.continfo button{
- margin-top: 20px;
     width: 600px;
-    height: 50px;
-    border: 0px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
+    height: 350px;
 }
 
-footer{
- 
-   width: 100%;
- margin-top: 50px;
+.desc h1{
+border-left: solid 5px rgb(35, 35, 49);
+padding: 10px;
+margin-top: 40px;
 
-    background-color: black;
-    color: white;
-    display: flex;
-flex-direction: column;
+}
+
+.desc h4{
+    margin: 0;
+    padding: 0;
+}
+
+.desc p{
+    margin-top: 10px;
    
-
-  
-
+    padding: 0; 
 }
-
-footer p {
-    font-size: 14px;
-    margin-left: 50px;
-padding-top: 70px;
-padding-bottom: 50px;
- 
-}
-
-.footerp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer img{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-
-
-.wahtssapp{
-  position: fixed;
- bottom: 0;
-  right: 0;
-
-  
-    
-}
-
-.wahtssapp img{
-  width: 200px;
- 
-  object-fit: cover;
-
-
- 
-}
-
-
-.aluguel {
-    height: 700px;
-}
-
-.cadastre{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 500px;
-
-}
-.cadastre button {
-    width: 350px;
-    height: 50px;
-    background-color: black;
+.desc h3 {
+    background-color: rgb(35, 35, 49);
+    width: 160px;
     color: white;
-    border: 0px;
-    margin-top: 50px;
-    cursor: pointer;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 0;
 }
 
-.mobile-container {display: none;}
+.recent{
 
-@media screen and (max-width: 700px) {
-    .mobile-container {display: block;}
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-   
-}
-
-.cabe h1 {
- width: 90%;
- margin-left: 10px;
- font-size: 25px;
-}
-.contimoveis{
-  margin-top: 10%;
-}
-section img{
-
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-
-}
-
-nav{display: none;}
-
+  padding: 30px;
+    width: 450px;
+ 
+    height: auto;
   
-  .topnav {
-    overflow: hidden;
-    background-color: white;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color: black;
-    padding: 8px 20px;
+
+
+}
+
+.recent a {
     text-decoration: none;
-    font-size: 20px;
-    display: block;
-  
-  }
-  
-  .topnav a.icon {
-    background: rgb(255, 255, 255);
-    display: block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    margin-right: 20px;
-    margin-top: 25px;
     color: black;
-    font-size: 35px;
-  }
-  
-  .topnav a:hover {
+}
 
-    color: black;
+.recentcont img{
+    width: 100px;
+    height: 100px;
 
-  
-  }
-  
-  .active {
-    background-color: white;
-    color:black;
-
-
-  }
-  .active img{
-    width: 120px;
-    margin-top: 3%;
-  }
-
-  footer{
-
-    width: 100%;
-    height:auto;
-    background-color: black;
+    padding: 20px;
+    margin: 30px;
+    padding: 0px;
+    object-fit: scale-down;
+}
+.recent h5 {
+    margin: 10px 0px;
+    padding: 0;
+    background-color: rgba(77, 185, 248, 0.678);
+  width: 200px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 17px;
     color: white;
-    display: flex;
-flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-
 }
 
-footer p {
-    font-size: 14px;
-    margin-left: 0px;
-padding-top: 0px;
-padding-bottom: 0px;
- 
+.recentcont h1{
+    margin: 0;
+    padding: 0;
+    
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.footerp {
+.recentcont h3{
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.recentcont{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    border: solid 1px rgba(100, 100, 100, 0.096);
+    width: 450px;
+    height: 140px;
+    margin-top: 10px;
+}
+
+.desc2{
+    padding: 30px;
+    padding-left: 0;
+}
+
+.cont3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.post h1{
+    text-align: center;
+
+    margin-bottom: 100px;
+}
+
+.post {
+    text-align: center;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
 }
 
-.slideshow-container {
-    width: 100%;
-    height:300px;
-    position:static;
-    margin: 0px;
-
-
- 
-  }
-.slideshow-container img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.post img{
+    object-fit: scale-down;
+    width: 600px;
+    height: 500px;
 }
 
-.continfo{
+@media screen and (max-width: 600px) {
+
+    header{
+       
+        margin-left: 60px;
+        padding: 5px;
+       
+       
+     
+    }
+
+
+    header h2 {
+        font-family: Cursive;
+ width: 250px;
+     margin: 0;
+     padding: 0;
+     font-size: 30px;
+     
+     }
+
+     main{
+        padding: 10px;
     width: 95%;
+    
     display: flex;
-margin-top: 0px;
     flex-direction: column;
-margin-left: 5%;
-font-size: 17px;
-    
-    
-    }
-    .continfo iframe{
-width: 95%;
     }
 
-    .continfo button{
+
+
+    .cont3{
+        width: 80%; 
+    
+    
+        
+    }
+
+  
+    .cont {
         width: 95%;
-    }
-
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 250px;
-        width: auto;
-     
-     
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
-      .cadastre{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-   
-        width: 100%;
-    }
+        border: solid 1px rgba(100, 100, 100, 0.096);
+        height: auto;
+       display: flex;
+       flex-direction: column;
+    margin: 40px 0px;
+ 
   
-
-    .wahtssapp{
-      position: fixed;
-      bottom: 50px;
-      right: 0;
-    }
     
-    .wahtssapp img{
-      width: 150px;
-
-      object-fit: cover;
-    }
-   
-    .continfo p{
-      width: 98%;
-  
-  }
+       padding: 30px;
+       margin-bottom: 20px;
     }
 
+    .desc h1{
+        border-left: solid 5px rgb(35, 35, 49);
+      
+        margin-top: 40px;
+       font-size: 25px;
+       width: 100%;
+        }
+
+        .desc p{
+            margin-top: 10px;
+           width: 90%;
+            padding: 0; 
+        }
+
+        .desc {
+            padding: 0px;
+        
+            width: 100%;
+            height: 350px;
+           
+        }
+        .cont img{
+            width: 100%;
+       
+ 
+          
+            height: 200px;
+            padding: 0px;
+          
+          
+        }
+        .recent{
+            margin: 0px;
+            padding: 20px 30px;
+              width:80%;
+             
+              height: auto;
+          
+          
+          
+          }
+
+          .post {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-items: center;
+            padding: 30px;
+            width: 100%;
+       
+           
+            
+        }
   
+        .post img{
+            object-fit: scale-down;
+            width: 250px;
+            height: 300px;
+          
+        }
+
+        .post h1{
+            text-align: center;
+            padding: 0px;
+            font-size: 25px;
+            margin-bottom: 50px;
+       
+        }
+
+        .post h2{
+            font-size: 20px;
+        }
+
+        .recentcont img{
+            width: 100px;
+            height: 60px;
+        
+            padding: 20px;
+            margin: 30px;
+            padding: 0px;
+            
+        }
+
+        .recentcont{
+            display: flex;
+        
+            width: 100%;
+            height: 140px;
+        }
+
+        .recentcont h1{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .recentcont h3{
+            margin: 0;
+            font-weight: normal;
+            font-size: 12px;
+            padding: 5px;
+        }
+    }
