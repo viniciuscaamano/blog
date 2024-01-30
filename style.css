@@ -142,7 +142,7 @@ margin-top: 40px;
 .recentcont h1{
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    
     font-size: 16px;
     font-weight: bold;
 }
@@ -196,6 +196,7 @@ margin-top: 40px;
     header{
         margin-left: 0px;
         padding: 20px;
+       
      
     }
 
@@ -210,7 +211,7 @@ margin-top: 40px;
 
      main{
         padding: 10px;
-    
+    width: 90%;
     
     display: flex;
     flex-direction: column;
@@ -219,35 +220,36 @@ margin-top: 40px;
 
 
     .cont3{
-        width: 100%; 
+        width: 20%; 
         
         
     }
     .cont {
-        width: 100%;
+        width: 90%;
     
         height: 300px;
        display: flex;
        flex-direction: column;
     margin: 0px;
     margin-bottom: 300px;
-       padding: 5px;
+       padding: 1px;
     }
 
     .desc h1{
         border-left: solid 5px rgb(35, 35, 49);
         padding: 5px;
         margin-top: 40px;
-        width: 60%;
+        width: 50%;
         }
 
         .desc p{
             margin-top: 10px;
-           width: 60%;
+           width: 50%;
             padding: 0; 
         }
         .cont img{
-            width: 350px;
+            width: 280px;
+         
           
             height: 200px;
             padding: 20px;
@@ -257,7 +259,7 @@ margin-top: 40px;
         .recent{
             margin-left: 0px;
             padding: 0px;
-              width:100%;
+              width:90%;
              
               height: auto;
             
@@ -280,6 +282,37 @@ margin-top: 40px;
             object-fit: scale-down;
             width: 90%;
             height: 300px;
-            border:  solid 1px gray;
+          
+        }
+
+        .recentcont img{
+            width: 100px;
+            height: 60px;
+        
+            padding: 20px;
+            margin: 30px;
+            padding: 0px;
+            object-fit: scale-down;
+        }
+
+        .recentcont{
+            display: flex;
+        
+            width: 100%;
+            height: 140px;
+        }
+
+        .recentcont h1{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .recentcont h3{
+            margin: 0;
+            font-weight: normal;
+            font-size: 12px;
+            padding: 5px;
         }
     }
