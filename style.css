@@ -7,8 +7,8 @@ header{
 }
 header h2 {
    font-family: Cursive;
-width: 400px;
-    font-size: 45px;
+width: 100%;
+    font-size: 50px;
 margin: 0;
 padding: 0;
 
@@ -173,7 +173,8 @@ margin-top: 40px;
 
 .post h1{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    margin: 0px;
 }
 
 .post {
@@ -202,10 +203,11 @@ margin-top: 40px;
 
     header h2 {
         font-family: Cursive;
-     width: 220px;
+     width: 100%;
          font-size: 20px;
      margin: 0;
      padding: 0;
+     font-size: 35px;
      
      }
 
@@ -287,7 +289,7 @@ margin-top: 40px;
             align-items: center;
             align-items: center;
             padding: 10px;
-            width: 90%;
+       
            
             
         }
@@ -301,13 +303,14 @@ margin-top: 40px;
 
         .post h1{
             text-align: center;
-            padding: 10px;
-            font-size: 20px;
+            padding: 0px;
+            font-size: 25px;
+            margin: 0px;
        
         }
 
         .post h2{
-            font-size: 15px;
+            font-size: 20px;
         }
 
         .recentcont img{
