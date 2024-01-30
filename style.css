@@ -1,0 +1,285 @@
+*{font-family: arial;}
+
+header{
+    margin-left: 250px;
+    padding: 20px;
+ 
+}
+header h2 {
+   font-family: Cursive;
+width: 400px;
+    font-size: 45px;
+margin: 0;
+padding: 0;
+
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    box-shadow: rgba(99, 99, 99, 0.11) 0px 2px 8px 0px;
+    width: 100%;
+ 
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding: 10px;
+
+
+display: flex;
+
+}
+
+.cont {
+    width: 1200px;
+
+    height: 300px;
+   display: flex;
+margin: 80px;
+margin-bottom: 5px;
+   padding: 5px;
+}
+
+.cont3{
+    width: 1200px; 
+    
+    
+}
+
+.cont img{
+    width: 430px;
+    height: 260px;
+    padding: 20px;
+    object-fit: scale-down;
+  
+}
+
+.desc {
+    padding: 20px;
+
+    width: 600px;
+    height: 350px;
+}
+
+.desc h1{
+border-left: solid 5px rgb(35, 35, 49);
+padding: 10px;
+margin-top: 40px;
+
+}
+
+.desc h4{
+    margin: 0;
+    padding: 0;
+}
+
+.desc p{
+    margin-top: 10px;
+   
+    padding: 0; 
+}
+.desc h3 {
+    background-color: rgb(35, 35, 49);
+    width: 160px;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 0;
+}
+
+.recent{
+  margin-left: 10px;
+  padding: 30px;
+    width: 450px;
+   
+    height: auto;
+  
+
+
+}
+
+.recent a {
+    text-decoration: none;
+    color: black;
+}
+
+.recentcont img{
+    width: 100px;
+    height: 60px;
+
+    padding: 20px;
+    margin: 30px;
+    padding: 0px;
+    object-fit: scale-down;
+}
+.recent h5 {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(77, 185, 248, 0.678);
+  width: 160px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+}
+
+.recentcont h1{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recentcont h3{
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.recentcont{
+    display: flex;
+
+    width: 450px;
+    height: 140px;
+}
+
+.desc2{
+    padding: 30px;
+    padding-left: 0;
+}
+
+.cont3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.post h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.post {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.post img{
+    object-fit: scale-down;
+    width: 600px;
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header{
+        margin-left: 0px;
+        padding: 20px;
+     
+    }
+
+    header h2 {
+        font-family: Cursive;
+     width: 220px;
+         font-size: 20px;
+     margin: 0;
+     padding: 0;
+     
+     }
+
+     main{
+        padding: 10px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    }
+
+
+
+    .cont3{
+        width: 100%; 
+        
+        
+    }
+    .cont {
+        width: 100%;
+    
+        height: 300px;
+       display: flex;
+       flex-direction: column;
+    margin: 0px;
+    margin-bottom: 300px;
+       padding: 5px;
+    }
+
+    .desc h1{
+        border-left: solid 5px rgb(35, 35, 49);
+        padding: 5px;
+        margin-top: 40px;
+        width: 60%;
+        }
+
+        .desc p{
+            margin-top: 10px;
+           width: 60%;
+            padding: 0; 
+        }
+        .cont img{
+            width: 350px;
+          
+            height: 200px;
+            padding: 20px;
+            object-fit: scale-down;
+          
+        }
+        .recent{
+            margin-left: 0px;
+            padding: 0px;
+              width:100%;
+             
+              height: auto;
+            
+          
+          
+          }
+
+          .post {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 50px;
+            
+        }
+  
+        .post img{
+            object-fit: scale-down;
+            width: 90%;
+            height: 300px;
+            border:  solid 1px gray;
+        }
+    }
