@@ -67,7 +67,7 @@ margin: 30px 80px;
 
 .cont img{
     width: 430px;
-    height: 340px;
+    height: 290px;
     padding: 20px;
     
 
@@ -353,5 +353,9 @@ margin-top: 40px;
             font-weight: normal;
             font-size: 12px;
             padding: 5px;
+        }
+
+        iframe{
+            width: 350px;        
         }
     }
