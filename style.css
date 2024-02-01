@@ -1,25 +1,13 @@
 *{font-family: arial;}
 
 header{
-    margin-left: 250px;
-    padding: 20px;
+  
+padding: 30px 150px;
  
 }
-header h2 {
-   font-family: Cursive;
-width: 500px;
-    font-size: 50px;
-margin: 0;
-padding: 0;
 
-}
 
-header p {
-    margin: 0;
-    padding: 0;
-    color: red;
-    
-}
+
 
 nav{
     box-shadow: rgba(99, 99, 99, 0.11) 0px 2px 8px 0px;
@@ -201,7 +189,7 @@ margin-top: 40px;
 
     header{
        
-        margin-left: 60px;
+        margin-left: 0px;
         padding: 5px;
        
        
@@ -364,5 +352,9 @@ margin-top: 40px;
 
         iframe{
             width: 350px;        
+        }
+        
+        header img {
+   width: 100%;
         }
     }
