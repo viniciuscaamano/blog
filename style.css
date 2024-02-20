@@ -37,6 +37,7 @@ main{
  display: flex;
 justify-content: space-around;
 
+
 }
 
 .cont {
@@ -46,13 +47,17 @@ justify-content: space-around;
     height: 350px;
    display: flex;
 margin-top: 45px;
-margin-left: 200px;
+margin-left: 150px;
    padding: 10px;
+
  
 }
 
 .cont3{
-    width: 1200px; 
+    overflow:scroll;
+    overflow-x:hidden;
+    width: 1400px; 
+    height: 900px;
     
     
 }
