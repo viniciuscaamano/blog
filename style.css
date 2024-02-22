@@ -54,8 +54,6 @@ margin-left: 150px;
 }
 
 .cont3{
-    overflow:scroll;
-    overflow-x:hidden;
     width: 1400px; 
     height: 900px;
     
@@ -235,7 +233,7 @@ font-size: 25px;
 
 
     .cont3{
-        overflow:hidden;
+     
       
       margin: 0px;
       padding: 0px;
