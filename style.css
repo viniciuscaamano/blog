@@ -36,7 +36,7 @@ nav ul a{
 main{
  display: flex;
 justify-content: space-around;
-
+margin-bottom: 150px;
 
 }
 
@@ -47,15 +47,16 @@ justify-content: space-around;
     height: 350px;
    display: flex;
 margin-top: 45px;
-margin-left: 150px;
+margin-left: 250px;
    padding: 10px;
 
  
 }
 
 .cont3{
-    width: 1400px; 
+    width: auto; 
     height: auto;
+   
     
     
 }
