@@ -189,7 +189,7 @@ font-size: 25px;
 
 .post h1{
     text-align: center;
-
+font-size: 45px;
     margin-bottom: 100px;
 }
 
@@ -204,6 +204,11 @@ margin-left: 260px;
 
   
     
+}
+
+.post a {
+    color:darkslateblue;
+    text-decoration: underline;
 }
 
 .post img{
@@ -369,9 +374,10 @@ margin-left: 260px;
         }
 
         .post h1{
-            text-align: center;
+            width: 90%;
+            text-align: left;
             padding: 0px;
-            font-size: 25px;
+            font-size: 35px;
             margin-bottom: 50px;
        
         }
@@ -383,7 +389,7 @@ margin-left: 260px;
         .post p{
       width:300px;
      
-            font-size: 19px;
+            font-size: 20px;
            
 
         }
