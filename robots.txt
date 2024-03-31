@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /index.html
+Allow: /gamer.html
+Allow: /culinaria.html
+
+
