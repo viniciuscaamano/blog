@@ -568,7 +568,9 @@ margin-left: 0px;
    
 
 
-
+        .post ol {
+            width: 300px;
+        }
        
         
         .link_redes{
