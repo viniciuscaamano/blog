@@ -1,5 +1,4 @@
-Options +FollowSymlinks
 RewriteEngine on
-RewriteCond %{http_host} ^viniciuscaamano.space [NC]
-RewriteRule ^(.*)$ http://www.viniciuscaamano.space/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^viniciuscaamano.space [NC]
+RewriteRule ^(.*)$ http://www.viniciuscaamano.space/$1 [L,R=301,NC]
 
