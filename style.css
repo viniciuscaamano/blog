@@ -227,6 +227,8 @@ font-size: 45px;
 .post p{
     text-align: left;
     font-size: 20px;
+    width: 800px;
+
 }
 
 .post {
